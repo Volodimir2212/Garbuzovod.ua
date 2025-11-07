@@ -14,5 +14,10 @@
 .logo{
     display: flex;
     margin-top: auto;
+    margin-right: 10px;
+   
 
+}
+.img{
+    margin-top: 20px;
 }
