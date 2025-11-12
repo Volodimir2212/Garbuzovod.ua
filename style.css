@@ -1,3 +1,4 @@
+
 .head{
     background-color: rgb(255, 145, 0);
   border-radius: 10px;
@@ -8,12 +9,12 @@
 .text
 {
     color: white;
-    margin: 0 auto;
+    margin:  auto;
     display: flex;
 }
 .logo{
     display: flex;
-    margin-top: auto;
+    margin: auto;
     margin-right: 10px;
    
 
