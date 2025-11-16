@@ -52,4 +52,28 @@
 .nav{
     margin-right: 10px;
 }
+.menu{
+   
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+.menu ul li a{
+    
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: blue;
+}
+.menu ul li :hover{
+    color: yellow;
+}
+.dev img{
+    
+    justify-content: center;
+}
+
 
