@@ -81,12 +81,14 @@
     overflow-x: hidden;
 }
 .slider-track{
+    
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    animation: move 30s linear infinite;
+   
 }
 .slide{
+    
     width: 250px;
     border-radius: 20px;
     border:1px solid #ccc;
@@ -94,6 +96,7 @@
     margin-right: 50px;
 }
 .card-image{
+    
     width: 250px;
     height: 250px;
 }
@@ -106,20 +109,22 @@
 }
 .sliderbody{
    
-  
+  margin-top: 20px;
     display: flex;
 
 }
-.card-text{
+.tex-image{
+    background-color: rgb(255, 145, 0);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
     padding: 20px;
 }
-@keyframes move{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-2700px);
-    }
+.slide:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
+
 
 
