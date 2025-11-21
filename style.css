@@ -46,7 +46,7 @@
      border-radius: 10px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   color: white;
-  
+  margin-top: 20px;
   display: flex;
 }
 .nav{
@@ -124,6 +124,26 @@
 .slide:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+.contactpage{
+     background-color: rgb(255, 145, 0);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 20px;
+   
+}
+.contactpage ul li a{
+     margin-left: 20px;
+    font-weight: 700;
+    font-size: 26px;
+     text-decoration: none;
+     
+}
+.contactpage ul{
+    list-style-type: none;
+    margin-top: 20px;
 }
 
 
